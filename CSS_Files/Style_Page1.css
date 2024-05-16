@@ -1,40 +1,42 @@
 body {
-            font-family: 'Playfair Display';font-size: 19px;
-            background-color: #232023;
-            color: white;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-        }
-        nav a:hover {
-            background-color: transparent;
-            color: white;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-<body>
+    font-family: 'Playfair Display';font-size: 19px;
+    background-color: #232023;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header {
+    align-self: fixed;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: transparent;
+    color: white;
+}
+section {
+    padding: 20px;
+}
+footer {
+    position: fixed;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+
