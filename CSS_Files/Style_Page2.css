@@ -48,6 +48,9 @@ section {
     padding: 20px;
     margin-top: 120px; 
 }
+li {
+    padding-top: 30px; 
+}
 
 .hidden {
   opacity: 0;
