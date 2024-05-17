@@ -1,48 +1,51 @@
 body {
-    font-family: 'Playfair Display';font-size: 19px;
+    font-family: 'Playfair Display';
+    font-size: 19px;
     background-color: #232023;
     color: white;
     margin: 0;
     padding: 0;
+    align-content: center;
+    place-items: center;
+    display: grid;
+    min-height: 100vh;
 }
+
 header {
-    align-self: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #4CAF50;
     color: white;
     padding: 10px;
     text-align: center;
+    z-index: 1000; 
 }
+
 nav {
+    position: fixed;
+    top: 115px; 
+    left: 0;
+    width: 100%;
+    background-color: #333;
     display: flex;
     justify-content: center;
-    background-color: #333;
 }
+
 nav a {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
 }
+
 nav a:hover {
     background-color: transparent;
     color: white;
 }
+
 section {
     padding: 20px;
+    margin-top: 120px; 
 }
-footer {
-    position: fixed;
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    bottom: 0;
-    width: 100%;
-}
-<header>
-	<h1>Projects Page</h1>
-</header>
-<nav>
-	<a href="index.html">Home</a>
-</nav>
-
 
