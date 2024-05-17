@@ -4,10 +4,10 @@ body {
     color: white;
     margin: 0;
     padding: 0;
-	align-content: center;
-	place-items: center;
-	display: grid;
-	min-height: 100vh;
+    align-content: center;
+    place-items: center;
+    display: grid;
+    min-height: 100vh;
 }
 header {
     position: fixed;
