@@ -50,6 +50,10 @@ section {
 li {
     padding-top: 100px; 
 }
+a {
+    color: blue;
+}
+
 
 .hidden {
   opacity: 0;
