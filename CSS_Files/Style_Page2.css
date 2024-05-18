@@ -55,6 +55,7 @@ a {
 }
 ul {
     position: fixed;
+    top: 100px;
 }
 
 
