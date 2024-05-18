@@ -53,7 +53,9 @@ li {
 a {
     color: #0096FF;
 }
-
+ul {
+    position: fixed;
+}
 
 
 .hidden {
