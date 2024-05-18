@@ -49,10 +49,12 @@ section {
 }
 li {
     padding-top: 200px; 
-    text-align: center;
 }
 a {
     color: #0096FF;
+}
+ul {
+    align-self: center;
 }
 
 
