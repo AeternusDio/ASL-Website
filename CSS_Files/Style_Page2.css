@@ -8,7 +8,6 @@ body {
     place-items: center;
     display: grid;
     min-height: 100vh;
-    place-items: center;
 }
 
 header {
