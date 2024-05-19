@@ -10,22 +10,30 @@
     <link rel="icon" href="Imgs/ASP.ico" type="image/x-icon" id="favicon"/>
     <script defer src="JS_Files/AOS.js"></script>
     <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
         .project-container {
-            text-align: center;
+            max-width: 600px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Projects Page</h1>
-    </header>
-    <nav>
-        <a href="index.html" class="BT_Transition">Home</a>
-    </nav>
-
     <div class="project-container">
+        <header>
+            <h1>Projects Page</h1>
+        </header>
+        <nav>
+            <a href="index.html" class="BT_Transition">Home</a>
+        </nav>
+
         <ul>
-            <li class="hidden" style="font-size: 25px; padding-left: 50px;"><em>ApacheTerminal Project</em></li>
+            <li class="hidden"><em>ApacheTerminal Project</em></li>
             <p class="hidden">
                 Description: This is a small/fast/cool/dumb program I made in C. It replicates a command line/terminal, and I did make this before, but I refactored the<br>entire darn thing to make it more modular, cooler, with more 'shell' commands, etc. This is version <2.1.8>, but there will definitely be more versions coming out<br> with even more cool programs, features, easter eggs (there are some in there), 'shell' commands, etc. You can also type 'help' in the terminal to get command<br> help. Also, if you can make this better, please do.<br>
                 <br>
@@ -41,11 +49,9 @@
                 License: GNU GPL Version 3 or later
             </p>
         </ul>
-    </div>
 
-    <div class="project-container">
         <ul>
-            <li class="hidden" style="font-size: 25px; padding-left: 50px;"><em>T R A S H C A N OS</em></li>
+            <li class="hidden"><em>T R A S H C A N OS</em></li>
             <p class="hidden">
                 Description: This is an operating system we are working on; as the name suggests, it's not going to be anything professional for a while. Speaking of the name, it holds a few Easter eggs related to the same topic; when you look at it face-on, it just says "TrashCan OS," but when you pay attention to the name, you get "trash can operating system," meaning that even trash can operate, albeit systemically, then, if you pay more attention, you notice that it also says "trash can Operate," removing the "system" and "ing"; aside from the name having many meanings, this OS will be text-based, small, and will have many built-in programs to keep the user entertained.<br>
                 <br>
@@ -61,16 +67,15 @@
                 License: GNU GPL Version 3 or later
             </p>
         </ul>
-    </div>
 
-    <footer>
-        <br>    
-        <hr>
-        <hr>
-        Author: AeternusDio<br>
-        &copy; 2024 Apache Software Productions (ASP) All Rights Reserved.
-        <hr>
-        <hr>
-    </footer>
+        <footer>
+            <hr>
+            <hr>
+            Author: AeternusDio<br>
+            &copy; 2024 Apache Software Productions (ASP) All Rights Reserved.
+            <hr>
+            <hr>
+        </footer>
+    </div>
 </body>
 </html>
