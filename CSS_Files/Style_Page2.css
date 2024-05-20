@@ -70,4 +70,13 @@ a {
   transition: all 2s;
 }
 
+.Projects {
+    display: flex;
+}
 
+.Projects:nth-child(2) {
+    transition-delay: 200ms;
+}
+.Projects:nth-child(3) {
+    ransition-delay: 400ms;
+}
