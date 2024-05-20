@@ -53,14 +53,6 @@ li {
 a {
     color: #0096FF;
 }
-.Projects {
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack items vertically */
-}
-
-.Projects .Projects {
-    margin-top: 20px; /* Add space between stacked divs */
-}
 
 
 
